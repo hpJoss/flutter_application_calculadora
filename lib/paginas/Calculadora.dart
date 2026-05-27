@@ -15,7 +15,7 @@ class _CalculadoraState extends State<Calculadora> {
 
   void tocarBoton(String valor) {
     setState(() {
-      controlador.presionarBoton(valor)
+      controlador.presionarBoton(valor);
     });
   }
 
