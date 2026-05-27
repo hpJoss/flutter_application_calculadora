@@ -11,7 +11,7 @@ class Pantalla extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) 
+  Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.only(
