@@ -13,7 +13,7 @@ class MiApp extends StatelessWidget {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
       title: 'Calculadora',
-      home: Calculadora(),
+      home: Calculadora()
     );
   }
 }
