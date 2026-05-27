@@ -10,7 +10,7 @@ class Boton extends StatelessWidget {
     required this.alPresionar,
   });
 
-  bool get esIgual => texto == '=';
+  bool get esIgual => texto == '='
 
   bool get esNumero {
     return texto == '0' ||
