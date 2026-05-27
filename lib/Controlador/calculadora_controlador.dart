@@ -92,7 +92,7 @@ class CalculadoraControlador {
   }
 
   void porcentaje() {
-    if (pantalla == 'Error') {
+    if (pantalla == 'Error') 
       return;
     }
 
