@@ -27,14 +27,17 @@ class Pantalla extends StatelessWidget {
           if (operacion.isNotEmpty)
             Align(
               alignment: Alignment.centerRight,
-              child: Text(
-                operacion,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  fontSize: 24,
-                  color: Color(0xFF7E8087),
-                  fontWeight: FontWeight.w300,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                alignment: Alignment.centerRight,
+                child: Text(
+                  operacion,
+                  maxLines: 1,
+                  style: const TextStyle(
+                    fontSize: 28,
+                    color: Color(0xFF7E8087),
+                    fontWeight: FontWeight.w300,
+                  ),
                 ),
               ),
             ),
@@ -43,15 +46,18 @@ class Pantalla extends StatelessWidget {
 
           Align(
             alignment: Alignment.centerRight,
-            child: Text(
-              texto,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                fontSize: 88,
-                color: CupertinoColors.white,
-                fontWeight: FontWeight.w300,
-                letterSpacing: -2,
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              alignment: Alignment.centerRight,
+              child: Text(
+                texto,
+                maxLines: 1,
+                style: const TextStyle(
+                  fontSize: 88,
+                  color: CupertinoColors.white,
+                  fontWeight: FontWeight.w300,
+                  letterSpacing: -2,
+                ),
               ),
             ),
           ),

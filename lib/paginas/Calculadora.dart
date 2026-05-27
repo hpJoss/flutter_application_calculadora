@@ -27,14 +27,14 @@ class _CalculadoraState extends State<Calculadora> {
         child: Column(
           children: [
             Expanded(
-              flex: 5,
+              flex: 6,
               child: Pantalla(
                 texto: controlador.pantalla,
                 operacion: controlador.operacionActual,
               ),
             ),
             Expanded(
-              flex: 9,
+              flex: 10,
               child: Teclado(
                 alPresionar: tocarBoton,
               ),
